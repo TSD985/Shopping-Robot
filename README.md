@@ -37,3 +37,21 @@ The bot handles browser interaction and provides a user-friendly, guided experie
 - **Mouse Scroll Automation**  
   Simulates continuous page scrolling to mimic human behavior.
 
+---
+
+### Use Cases / Benefits
+- Automates repetitive shopping tasks
+- Useful for quick product searches across websites
+- Can assist users with limited device interaction
+- Saves time during routine product browsing
+
+---
+
+### Learning Outcomes
+- Gained hands-on experience in RPA and browser automation
+- Learned to handle dynamic user inputs
+- Understood web page interaction logic
+- Practiced process design using flowcharts
+
+
+
