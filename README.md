@@ -1,4 +1,4 @@
-## Shopping Robot – RPA-Based Shopping Assistant
+### Shopping Robot – RPA-Based Shopping Assistant
 This project is a browser automation bot built using Robotic Process Automation (RPA) tools. It simulates the online shopping process by allowing users to:
 
 - Choose a shopping website (e.g., Amazon, Flipkart)
@@ -28,7 +28,7 @@ The bot handles browser interaction and provides a user-friendly, guided experie
 
 ---
 
-## Tools & Features
+### Tools & Features
 
 - **RPA Automation**  
   Controls the browser, enters inputs, clicks, and scrolls.
