@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QAcJtV6wNk2nUu8-Itwjiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com/search" CVScreenId="a6c5bef0-1e89-44dc-ba39-5023058ebdb4" CvElementArea="484, 273, 440, 41" CvType="InputBox" DesignTimeRectangle="471, 280, 455, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='tab-' tag='INPUT' type='text' class='sd-input js-searchable-box' placeholder='Search by Brand' aaname='' /&gt;" Guid="ea50ff4b-fe4e-45ee-a4db-9e70ef142316" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a6c5bef0-1e89-44dc-ba39-5023058ebdb4" CvElementArea="405, 156, 785, 60" CvType="InputBox" DesignTimeRectangle="407, 157, 781, 59" ElementType="InputBox" Guid="fcae5a04-4506-4a56-aa73-a54adb3f76bb" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0e4190e096dab3788ab591c7e05e3028.png" xmlns="">0WbPwC3Lg7kmH5CgTWPAynw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

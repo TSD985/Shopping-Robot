@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="idPHj90rJ0WVjo9xsr-kmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="9b363c8c-e03f-40f6-a8cc-19129369db03" CvTextArea="155, 497, 657, 33" CvType="AnyWordGroup" DesignTimeRectangle="158, 495, 653, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='SPAN' type='' class='' /&gt;" Guid="9a1599f5-9e19-49ef-9096-c7ab51723ece" ScopeSelectorArgument="&lt;html app='firefox.exe' title='shopsy - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9b363c8c-e03f-40f6-a8cc-19129369db03" CvElementArea="153, 429, 49, 49" CvType="Icon" DesignTimeRectangle="165, 441, 27, 27" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='svg' type='' class='' aaname='' /&gt;" Guid="c4d661be-7a61-4c4f-9ddf-fd3c6f225cca" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALiSURBVFhH1ZfrU1JBFMD9Y5q+9JelNU3jh1LIUWcyMRlStHyblYqZA4iZim+iEh8hqaiAgD3HrKYSUUBOc860d+7dvZerjQPTb+YMj7N7fvfu3V2WogsXL4HbPQX5BH3oLcq3mIHeIv7LfPL/yLNZgK1IHBzjc9BlG4aGThu9OsfnYHtnl/Jn4VTydDoD7vkFKLvTDJfLajXDYLoP095FyGRO+BKq6MrxTvWkfBjrHsBO/CNfSiCnfOrlolBYK27UWGF4Yh6uV1roc3G5CV4tBfiSCjTla5sRQZArugdc1O/Hz19wu7FLuoBI/ANfWkJV/vsgId2BXpQYTNDyeIj6MA4SSag0t1EeH9lxKqWoz1CVP3r2XJDwoTekn/f2ocRQR23tL2b4NCHIE4dJKC4XZXzoyZEBl5vaXqsww8mJuAIE+cLKmiBSi0AwxHcV2Nv/LrXHVcMjyPsd49QY1ywbNnkBjNMsI0aVpZ36jk57+ZQob+u1U2ObcwJWN0I0Y5n8X+gZHKG+OI94BHljp40a45pF3q5tSXPA5fZoRjj2ni9FOMZmqa+1a4BPifLOfqd054zlQFB3EtZYuxV1GH32McqzfUCOIB8anVa9Up9/XRDKA+eIGubWXsqrLTdB7l/fpsZXjXchlUorcm9W3gnSXPKDxKE0Yrhj8gjyo+OUNMlmvEt8miS8WEtu//u8rxjrIJ3J8GlRjrDndLOmiTYdOZb2PkEsD1yeOEm/fP1Gmwt+NzgyqajBUJXjcJVW36OODR39iuGP7n6SclqBF1BR30rv8QaSR8eK+gxVObIRikrFapt76NeKgRfT9PCpIOUDn3c4qr4EEU05Iv89L62ywOzrZekxsM1DK3DeeBdX+ZIKcsqRzXCMhk5+N/UtT6Da0iEIWdzCk8yu/hasK0fwDDfp8SkuQi3w+OTx+c/vDCcnm81CMByjLVN+esWtOBLTPrFocSb5eVNYeUH/qxXyX+ofApBCNS2Ov5kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ac1b0f0eb7185aed0827e26918b8553d.png" xmlns="">0R87ZDPZFUUSPZJxeX58m7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

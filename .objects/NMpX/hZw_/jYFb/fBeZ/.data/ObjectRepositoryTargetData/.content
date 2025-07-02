@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FromZnNrkEegfYAF2aPpnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com" CVScreenId="7646ddd0-e4f7-47fe-a85c-cb9812a7ef53" CvElementArea="407, 205, 779, 59" CvType="InputBox" DesignTimeRectangle="410, 208, 777, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='inputValEnter' tag='INPUT' type='text' class='col-xs-20 searchformInput keyword' placeholder='Search products &amp;amp; brands' aaname='' /&gt;" Guid="f4241bae-985d-4346-bbb8-846d7b7f3476" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7646ddd0-e4f7-47fe-a85c-cb9812a7ef53" CvElementArea="1186, 205, 168, 61" CvTextArea="1247, 225, 72, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1187, 208, 166, 55" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='sdHeader' tag='BUTTON' type='' class='searchformButton col-xs-4 rippleGrey' aaname='             &amp;#x9;Search             &amp;#x9;             ' check:innerText='Search' /&gt;" Guid="2db27725-1d11-46e6-9db7-1d224d47a83a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a648070aac0ecf70ee452fa7040fbe94.png" xmlns="">0PGOjkRbMaU2lVPvChgJK6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

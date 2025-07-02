@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mgf8ZHE86EGu_oNq05TbjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com/mobiles" CVScreenId="7e2b8354-dc38-4283-8266-04e1ecc82d54" CvTextArea="56, 659, 145, 18" CvTextArgument="Search for Brand" CvType="Text" DesignTimeRectangle="35, 646, 332, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='filter-search-inputBox' placeholder='Search for Brand' aaname='' /&gt;" Guid="b8867830-8fda-4cbc-8763-76905cf49be9" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="dd4d6f6bae38d8ba592240cb618bed1d.png" xmlns="">0FP8MnjTVeEi9n1_AdJVKZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

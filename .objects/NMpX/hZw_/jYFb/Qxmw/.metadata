@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Myntra Online Fashion S…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QxmwbmEvT0CxX55m-r-NBg",
+  "Reference": "QiWUsQYde0eMilD8eAKhiw/QxmwbmEvT0CxX55m-r-NBg",
+  "ParentRef": "QiWUsQYde0eMilD8eAKhiw/jYFbLCCwL06KBrFgAqJlfA",
+  "Created": "2025-03-23T19:02:54.5010056Z",
+  "Updated": "2025-03-23T19:02:54.5010056Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

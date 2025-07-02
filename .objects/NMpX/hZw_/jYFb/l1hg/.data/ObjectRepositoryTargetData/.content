@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8Rv1l2IJv0OuRfNbJN5YsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flipkart.com/search" CVScreenId="6022faa7-bd6c-4e15-8a90-fcf1aa85ce2b" CvTextArea="77, 557, 129, 19" CvTextArgument="Search Brand" CvType="Text" DesignTimeRectangle="47, 554, 357, 30" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='XPD6hh' tag='INPUT' type='text' placeholder='Search Brand' aaname='' /&gt;" Guid="1664380a-f20e-4f2e-b10c-5712a1c1394f" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shoes- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="520fdec74354e70b39c9e9e41446633f.png" xmlns="">0K4AgdsnMeE-QoaeKfQHOPg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

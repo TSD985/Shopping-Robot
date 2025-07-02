@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ynZw3RRr2E6kUlklLvbnyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com/mobile" CVScreenId="f44f3cc7-00f5-4c72-a61d-1aa7093ebe7d" CvTextArea="56, 413, 140, 19" CvTextArgument="Search for Color" CvType="Text" DesignTimeRectangle="35, 401, 332, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='filter-search-inputBox' tag='INPUT' type='text' placeholder='Search for Color' aaname='' /&gt;" Guid="fb249440-9992-4f8a-94d3-7b9f1b8bea78" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f44f3cc7-00f5-4c72-a61d-1aa7093ebe7d" CvTextArea="47, 255, 57, 18" CvTextArgument="PRICE" CvType="Text" DesignTimeRectangle="49, 251, 339, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='verticalFilters-header' parentid='mountRoot' tag='SPAN' type='' aaname='Price' check:innerText='PRICE' /&gt;" Guid="b6b98c10-9843-4fa4-a042-b21b628d037c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa8fb998103f5a338b84d7184aba2c8b.png" xmlns="">0zCDCzueugE6xYwvaGJKnfA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

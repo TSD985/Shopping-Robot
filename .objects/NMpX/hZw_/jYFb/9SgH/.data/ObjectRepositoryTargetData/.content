@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LY1-NIxpDkefCiQArfP6rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com/mobile" CVScreenId="2b28834e-2f9d-4a95-bc45-2320c9d18ca7" CvElementArea="323, 647, 42, 39" CvType="Icon" DesignTimeRectangle="334, 657, 22, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' parentid='mountRoot' tag='SPAN' class='myntraweb-sprite filter-search-iconSearch sprites-search' aaname='' /&gt;" Guid="042114e6-364b-46b3-b220-9717e3ac985c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI5SURBVEhLvZXfT9pQFMf9mzUxJiydPOwHSEdbzJKNMZxB9jDIwn5oQRe1yFAiIysTmcKcwNzMVCg/9nqWe12v3J62Y4v48Hngnu85Hy693E4MBr/gJpiwLoyLkUSHta+wUyhBJpODdDoH+e0StFrfUc4NV5GuVyEgRmBy0mdLdCEB9fox6rPDVmQYXVDVTW6o55YEXu88ZWZG5Grr63k0w4qtKJVaY0OE2wpk1rIok1nVQBAUltvY3EYZV9FWbpc1S9Iz1DBMvz+AucATmp2eDkC73UEZEyS6d/8xbZydVVDYDiLzeGTaEwrFUN2EE5XLVbabrfdFFHbio16hPeTZWWsmnOjN23eXu/GGoNvtobAThtFjX/DoqInqBE4UiSRomBxpa/Bv+PyPaK+WLaAagROFwy/+WzQnhkcXJZIqDQuCjIJutNsG++lOT3+iOoET7VdrrEHXKyjsRPnTwZ/D8ADVTNDx9vkv/xeKsojCdnQ6XZCVRdoTlKKoboJE+XyR7Sq29BI1DEOuqmRyle2m2TxBGRMkIsSWXjGZKEbRTU0EjcYJBIMLLBd/nnJ8Po4iQjz+Gqam/GwQQVaegjIf5dbI1SPJV2u6vo9muYoItfoxCEKIGzzMnbsPodX6AZ8PvnDre3uHaJariEDusrOzCyiVKqCmNUqj8Q3Ozy9ozcysrGicjOT/STQqvV4fVDXLyQoFndWvTUSw25n5Br5Wkcny8gaVaNrVy3AsIkLxQ5n7PDaRlRsT/QanbIOpYskriAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2b28834e-2f9d-4a95-bc45-2320c9d18ca7" CvTextArea="47, 417, 85, 21" CvTextArgument="FILTERS" CvType="Text" DesignTimeRectangle="49, 411, 82, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='header-title' parentid='mountRoot' tag='SPAN' type='' aaname='FILTERS' check:innerText='FILTERS' /&gt;" Guid="13ef5a2b-8ee6-445a-be61-570a922e6cd0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b406e38390eb4edfd384fc23a6af549.png" xmlns="">0tp4yfJ_DZEeT38k6mnASUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-syKAW_3ekSj-7DyTEzPIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com/mobile" CVScreenId="8adc2b8b-ac30-4df6-a4d8-068d1e0de822" CvElementArea="45, 663, 31, 30" CvType="CheckBox" DesignTimeRectangle="49, 666, 24, 24" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='common-checkboxIndicator' type='' parentid='mountRoot' tag='DIV' aaname='' /&gt;" Guid="24fb8746-4702-4c8c-976c-77a05456c0c0" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8adc2b8b-ac30-4df6-a4d8-068d1e0de822" CvElementArea="327, 604, 34, 33" CvTextArea="54, 612, 142, 19" CvTextArgument="Search for Color" CvType="CloseButton" DesignTimeRectangle="35, 600, 332, 45" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='filter-search-inputBox' tag='INPUT' type='text' placeholder='Search for Color' aaname='' /&gt;" Guid="4da1c3b8-3170-412b-9bd5-ced9f5b60490" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f7cdc5ab2a358954a1e54af2cd3bd13b.png" xmlns="">0aWk-TNRKeE2k5a24SL0Pdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

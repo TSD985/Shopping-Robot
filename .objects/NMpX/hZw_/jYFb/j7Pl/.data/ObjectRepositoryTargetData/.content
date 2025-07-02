@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ShoZBdgrEEC70b1n5wHDgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com/search" CVScreenId="4fb8f0f8-7f08-47c5-8b05-b81fa19fe420" CvTextArea="516, 477, 54, 18" CvTextArgument="ACwO" CvType="Text" DesignTimeRectangle="520, 476, 50, 21" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' ACwO ' parentid='tab-' tag='A' type='' class='filter-name fnt-12' check:innerText='ACwO' /&gt;" Guid="c98b981e-ca08-4079-ae7d-39edcfaf741a" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4fb8f0f8-7f08-47c5-8b05-b81fa19fe420" CvTextArea="479, 438, 16, 18" CvTextArgument="A" CvType="Text" DesignTimeRectangle="482, 438, 244, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='alphabetAkey' tag='A' type='' class='key-alphabet-sub' aaname='A' check:innerText='A' /&gt;" Guid="d2735101-a6ea-45ae-b86d-08f200d95de9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a35bcae7d0f7aad40a2d77399ea5f28.png" xmlns="">02kIcVtpMx0GxqdlyyO0ZFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

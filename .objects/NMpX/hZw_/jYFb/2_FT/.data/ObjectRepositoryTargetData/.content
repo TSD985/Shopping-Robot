@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rWCsT0mCv0yEubufJbdndw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com/search" CVScreenId="f5883972-9f21-4288-a21d-761becce9b6f" CvTextArea="506, 285, 147, 18" CvTextArgument="Search by Brand" CvType="Text" DesignTimeRectangle="471, 280, 455, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='tab-' tag='INPUT' type='text' class='sd-input js-searchable-box' placeholder='Search by Brand' aaname='' /&gt;" Guid="33ef3dac-ed46-41d6-b158-30261add0887" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6df289751c912b972b5ae3c3efd69dd6.png" xmlns="">0LK056QX0VkmxG-oEbyw2dA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

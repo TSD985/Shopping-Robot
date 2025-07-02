@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z3vnAh_H0Ee8kQJXRHoD-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopsy.in" CVScreenId="2dd75887-1083-4b4e-8a80-36ca69c63c65" CvElementArea="278, 154, 818, 65" CvType="InputBox" DesignTimeRectangle="351, 159, 726, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='sc-3d850155-3 jSUrzS' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="b28fb294-ed9e-4116-8d12-85aa1c9af330" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Mens &amp;amp; Womens Fashion, Beauty, Home, &amp;amp; More | Shopsy' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2dd75887-1083-4b4e-8a80-36ca69c63c65" CvElementArea="278, 154, 818, 65" CvType="InputBox" DesignTimeRectangle="305, 171, 34, 36" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="c2a03df8-c326-40ad-b78e-13bf64db6e2d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a16177f170f958f5e85c42190ffc22cb.png" xmlns="">0JmBN-CvqNk-TfoytKWpDOA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

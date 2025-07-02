@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tIJFSPZ9s0-zJXNl5W285Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopsy.in/search" CVScreenId="83c8efdd-ca61-4676-83c7-06b57bd503e7" CvElementArea="280, 155, 813, 65" CvType="InputBox" DesignTimeRectangle="305, 171, 34, 36" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="86ed3817-ad49-4eba-aa4e-a7c6d63e919f" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile- Buy Products Online at Best Price in India - All Categories | shopsy.in' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="83c8efdd-ca61-4676-83c7-06b57bd503e7" CvElementArea="280, 155, 813, 65" CvType="InputBox" DesignTimeRectangle="351, 159, 726, 60" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='sc-3d850155-3 jSUrzS' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="9206be6f-d579-47e2-a8bd-86416a31ff5b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="df3b48c188a42a4781f1cbb12ea30f38.png" xmlns="">0pAIXXbcXVUuyJIxa-0grwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

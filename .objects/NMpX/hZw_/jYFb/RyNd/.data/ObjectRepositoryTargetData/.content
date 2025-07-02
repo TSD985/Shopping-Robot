@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pW-2ohJwVkO6MESrxjmfwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com/mobile" CVScreenId="800a03a1-42de-4221-8481-e0378596d051" CvElementArea="326, 594, 37, 36" CvType="Icon" DesignTimeRectangle="334, 601, 22, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='myntraweb-sprite filter-search-iconSearch sprites-search' parentid='mountRoot' tag='SPAN' aaname='' /&gt;" Guid="29cc3e75-e141-4cbe-a7f8-972013bd64c2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI4SURBVEhLzZXfT9pQFMf9mzUxJixVHvYDpKMtZsnGGM4gPghZ2A8t6KIWGY6MkZWJqDAnMDczFcqPvZ7lXtcrt6ft3CLLHj4P3PM958Oll9uxweAH/AvGrAuj4v8SHdY+w9tCCTKZHKTTOcjvlKDV+opybriKdL0KATEC4+M+W6LzCajXj1GfHbYiw+iCqm5xQz23JPB65yhTUyJX29jIoxlWbEWp1DobIkwrkFnPokxmTQNBUFhuc2sHZVxF27l3rFmSnqKGYfr9AcwGHtPs5GQA2u0Oypgg0d17j2jjzIyCwnYQmccj055QKIbqJpyoXK6y3Wy/KaKwEx/0Cu0hz85aM+FEL1+9vtyNNwTdbg+FnTCMHvuCR0dNVCdwokgkQcPkSFuDv8Pnf0h7tWwB1QicKBxe/mvRrBi+viiRVGlYEGQUdKPdNthPd3r6HdUJnGivWmMNul5BYSfKHw9+HYb7qGaCjrfPf/m/UJQFFLaj0+mCrCzQnqAURXUTJMrni2xXscVnqGEYclUlk2tsN83mCcqYIBEhtvicyUQxim5qImg0TiAYnGe5+FLK8fk4igjx+AuYmPCzQQRZeQLKXJRbI1ePJF+t6foemuUqItTqxyAIIW7wMLfvPIBW6xvsH3zi1nd3D9EsVxGB3GVnZxdQKlVATWuURuMLnJ9f0JqZWV3VOBnJ/5HouvR6fVDVLCcrFHRWvzERwW5n5hv4RkUmKyubVKJpVy/DkYgIxfdl7vPIRFZ+AjWEg6ma0zVHAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="11, 138, 1920, 120" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='desktop-header-cnt' tag='HEADER' type='' class='desktop-container' aaname='' check:innerText='MEN&amp;#xA;WOMEN&amp;#xA;KIDS&amp;#xA;HOME &amp;amp; LIVING&amp;#xA;BEAUTY&amp;#xA;STUDIO NEW&amp;#xA;Profile&amp;#xA;Wishlist&amp;#xA;Bag' /&gt;" Guid="4d269933-6fcc-4277-932e-6ffc87d0f5b3" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5638221bb456b63ba4a4a1f6143e157.png" xmlns="">0fc0petbd3U-JlmyMFtsM0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

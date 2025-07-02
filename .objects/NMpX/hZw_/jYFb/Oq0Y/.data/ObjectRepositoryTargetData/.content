@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sMC73vn4eEKnsnM-dDGBjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com" CVScreenId="8d4508cc-5721-4fd5-b9b1-591c5f880881" CvElementArea="1187, 205, 167, 61" CvTextArea="1247, 225, 72, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1187, 208, 166, 55" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='sdHeader' tag='BUTTON' type='' class='searchformButton col-xs-4 rippleGrey' aaname='             &amp;#x9;Search             &amp;#x9;             ' check:innerText='Search' /&gt;" Guid="2edbcb8c-0634-4bb7-8adc-679f028f9072" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8d4508cc-5721-4fd5-b9b1-591c5f880881" CvTextArea="142, 210, 158, 46" CvTextArgument="snapdeal" CvType="Text" DesignTimeRectangle="88, 212, 213, 45" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl aaname='Snapdeal' tag='IMG' type='' class='notIeLogoHeader aspectRatioEqual sdHomepage cur-pointer' /&gt;" Guid="18302182-91a7-47ca-ad65-b5da87abd395" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c2daeb656de25c21bfcb3af61b036d8.png" xmlns="">0RKNhAPtGb0WtYmxYjJaeGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

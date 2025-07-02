@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="URg6ZeaP8keNXwS-KYrHPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="myntra.com" CVScreenId="d75dbde9-35e0-48b4-ba12-f7d11e75493f" CvElementArea="1068, 165, 553, 62" CvType="InputBox" DesignTimeRectangle="1091, 186, 23, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='myntraweb-sprite desktop-iconSearch sprites-search' isleaf='1' tag='SPAN' aaname='' /&gt;" Guid="ab18ec29-202d-4bb8-9c0b-05f88226b6a1" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping for Women, Men, Kids Fashion &amp;amp; Lifestyle - Myntra' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="06ba698bfe804ec98c6d2cba76e2fcc9.png" xmlns="">0gNKPki5u9EeHLuiwKRSb8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

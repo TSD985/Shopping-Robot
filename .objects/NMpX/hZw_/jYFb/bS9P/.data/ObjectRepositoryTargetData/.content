@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0USkq0k-S0GqOMSZIEA0Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="meesho.com" CVScreenId="39d848b6-ba62-46bb-8eab-6a7046666019" CvElementArea="318, 156, 608, 70" CvType="InputBox" DesignTimeRectangle="383, 176, 522, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='sc-eDvSVe gUjMRV sc-cUEOzv hBUFrn search-input-elm sc-cUEOzv hBUFrn search-input-elm' placeholder='Try Saree, Kurti or Search by Product Code' aaname='' /&gt;" Guid="ab29013d-9922-4b00-9df2-4f763a22c49b" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping Site for Fashion, Electronics, Home &amp;amp; More | Meesho' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="39d848b6-ba62-46bb-8eab-6a7046666019" CvElementArea="318, 156, 608, 70" CvType="InputBox" DesignTimeRectangle="341, 177, 30, 30" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="df5da400-2559-4f53-a161-6884141b5dfa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="682cdfdc247103dca9d57e626718b49d.png" xmlns="">07L2e4slnokSb1OvlX80FmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

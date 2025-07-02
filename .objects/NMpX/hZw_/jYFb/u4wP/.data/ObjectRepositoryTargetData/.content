@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3UcSnDQvWEmjaDinQI7pGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flipkart.com" CVScreenId="6beb32de-30a2-491b-98f0-d926900754a5" CvElementArea="340, 154, 758, 64" CvType="InputBox" DesignTimeRectangle="413, 158, 680, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='Pke_EE' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="5f303ba0-73e1-458d-a974-028bc65ac2e3" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3fb8c82b90a87bda5757cdfd3cbe16b.png" xmlns="">0i0cRl8FlgEyH3CvPhRx-CQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

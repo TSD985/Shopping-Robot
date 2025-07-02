@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Firefox Google",
+  "Type": "Screen",
+  "Id": "jYFbLCCwL06KBrFgAqJlfA",
+  "Reference": "QiWUsQYde0eMilD8eAKhiw/jYFbLCCwL06KBrFgAqJlfA",
+  "ParentRef": "QiWUsQYde0eMilD8eAKhiw/hZw_TClWvUuZTpf8gEG1zg",
+  "Created": "2025-03-23T18:26:19.868985Z",
+  "Updated": "2025-03-23T18:26:19.868985Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

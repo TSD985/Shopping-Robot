@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HzQzuH73L02Qt6_9IKbWsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="snapdeal.com/search" CVScreenId="6c599cce-899b-40ed-bd52-e78acdd4382f" CvElementArea="1437, 265, 166, 58" CvTextArea="1490, 285, 60, 19" CvTextArgument="APPLY" CvType="Button" DesignTimeRectangle="1440, 268, 161, 53" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='APPLY' parentid='content_wrapper' tag='DIV' type='' class='btn applyFilters lfloat' check:innerText='APPLY' /&gt;" Guid="f19d47dd-0a37-4eca-9cf5-88cb7aa783c5" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6c599cce-899b-40ed-bd52-e78acdd4382f" CvTextArea="116, 285, 61, 19" CvTextArgument="Brand" CvType="Text" DesignTimeRectangle="117, 282, 60, 28" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='filter-type-name lfloat' parentid='content_wrapper' tag='DIV' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Brand &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="c79ca72a-94cc-4a31-a45a-6053de82d3de" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="83f24514bc4a7badc35d32fbbf06a23a.png" xmlns="">0BeMnRr8hUUqBLwI-g-sLIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

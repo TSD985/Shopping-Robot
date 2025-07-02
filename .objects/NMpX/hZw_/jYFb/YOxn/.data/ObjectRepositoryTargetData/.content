@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="98thlWScLU-XlDoOBwj-BA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" DesignTimeRectangle="158, 474, 978, 108" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='A' type='' class='zReHs' aaname='JioMartJioMarthttps://www.jiomart.com' check:innerText='JioMart&amp;#xA;JioMart&amp;#xA;https://www.jiomart.com' /&gt;" Guid="47865470-3096-4768-8959-4d15c4ecd73f" ScopeSelectorArgument="&lt;html app='firefox.exe' title='jiomart - Google Search' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="de394bcf-ca4d-4170-b541-57ea26bc2e57" CvTextArea="153, 188, 142, 51" CvTextArgument="Google" CvType="Text" DesignTimeRectangle="158, 192, 138, 45" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="62735c6c-6303-4bd9-9298-34ea9d5e9193" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f05d97c7dd5fd360f11243b7178d12c.png" xmlns="">0Ghwie5Noe0mB9SEMlfSlUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

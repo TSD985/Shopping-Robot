@@ -1,0 +1,558 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="922.6666666666666,10898" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="search_choice" />
+      <Variable x:TypeArguments="x:String" Name="a" />
+      <Variable x:TypeArguments="x:String" Name="brand" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="520,10875.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Options="{x:Null}" DisplayName="Take User Input for Shopping Website" sap:VirtualizedContainerService.HintSize="486,332.6666666666667" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Choose the website where you want to shop from :" OptionsString="Amazon;Flipkart;Myntra;Meesho;Snapdeal;Shopsy" Title="Choose Shopping Website">
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">[a]</OutArgument>
+        </ui:InputDialog.Result>
+      </ui:InputDialog>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Firefox Google" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,10460" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,10218" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'TEXTAREA APjFqb'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="418,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[a + &quot;[k(Enter)]&quot;]" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="google.com" CVScreenId="5c26aafe-85eb-4f7c-ad42-9efdc141f0eb" ContentHash="ClXdhXeP_kWnXPaIzYaMhQ" CvElementArea="528, 401, 884, 77" CvType="InputBox" DesignTimeRectangle="605, 406, 665, 69" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='' class='gLFyf' aaname='Search' /&gt;" Guid="447c374b-5114-4211-8874-e389dd35cbdc" InformativeScreenshot="6342e508ae3829b5911c2705a668fc3c.png" Reference="QiWUsQYde0eMilD8eAKhiw/jBfUpt_-M0-XPZZa3Q-3mQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5c26aafe-85eb-4f7c-ad42-9efdc141f0eb" CvElementArea="528, 401, 884, 77" CvType="InputBox" DesignTimeRectangle="555, 426, 30, 30" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="5eb6b6f7-c813-4220-ad76-cd3fc40ec586" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <ui:IfElseIfV2 Condition="[a=&quot;Amazon&quot;]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="418,9900.666666666666" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                <ui:IfElseIfV2.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </ui:IfElseIfV2.Else>
+                <ui:IfElseIfV2.ElseIfs>
+                  <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                    <ui:IfElseIfBlock BlockType="ElseIf" Condition="[a=&quot;Flipkart&quot;]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,1690" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Flipkart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="46267e78-1b94-42a3-b62b-04d3eff3360d" ContentHash="pk78hAGmK0yNZ_nYMwvI2w" CvTextArea="156, 452, 102, 33" CvTextArgument="Flipkart" CvType="Text" DesignTimeRectangle="158, 440, 978, 46" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='Flipkart' check:innerText='Flipkart' /&gt;" Guid="0569baf9-f655-4e0a-a270-279d3bc75a10" InformativeScreenshot="4d4f4b66acfbff4f0f610b350cbf6662.png" Reference="QiWUsQYde0eMilD8eAKhiw/apfu2AYLCkKHXX8-ioJZdw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='flipkart - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="46267e78-1b94-42a3-b62b-04d3eff3360d" CvElementArea="153, 386, 50, 50" CvType="Icon" DesignTimeRectangle="158, 390, 41, 42" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='IMG' type='' class='XNo5Ab' aaname='FlipkartFlipkarthttps://www.flipkart.com' /&gt;" Guid="dd83e63e-4d00-4ff9-bfce-c397b6c9b5f7" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Enter what u want to search :" Title="User's Choice">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[search_choice]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="Simulate" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[search_choice]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="flipkart.com" CVScreenId="6beb32de-30a2-491b-98f0-d926900754a5" ContentHash="3UcSnDQvWEmjaDinQI7pGg" CvElementArea="340, 154, 758, 64" CvType="InputBox" DesignTimeRectangle="413, 158, 680, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='Pke_EE' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="5f303ba0-73e1-458d-a974-028bc65ac2e3" InformativeScreenshot="f3fb8c82b90a87bda5757cdfd3cbe16b.png" Reference="QiWUsQYde0eMilD8eAKhiw/u4wPwfW1LkW6ctl-vERFQg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search Icon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="flipkart.com" CVScreenId="400f46e3-6ada-43ca-a6e2-103846e45090" ContentHash="AX9tBOjQdUCQJGdw32DZNw" CvElementArea="340, 154, 758, 64" CvType="InputBox" DesignTimeRectangle="365, 170, 36, 36" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' check:text='Search Icon' /&gt;" Guid="7d5bcf8c-05dd-4326-85e5-e5845f7b0671" InformativeScreenshot="fd2a7932f55d136575eb1e5c4fca5a52.png" Reference="QiWUsQYde0eMilD8eAKhiw/UjE_U18v1kiAMyDuL4JgXg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp;amp; More. Best Offers!' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="400f46e3-6ada-43ca-a6e2-103846e45090" CvElementArea="340, 154, 758, 64" CvType="InputBox" DesignTimeRectangle="413, 158, 680, 60" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='Pke_EE' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="dbe7f24f-9649-4f37-a793-d95fb8763269" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="Enter Brand you want to search :" Title="Brand">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[brand]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[brand]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="flipkart.com/search" CVScreenId="6022faa7-bd6c-4e15-8a90-fcf1aa85ce2b" ContentHash="8Rv1l2IJv0OuRfNbJN5YsQ" CvTextArea="77, 557, 129, 19" CvTextArgument="Search Brand" CvType="Text" DesignTimeRectangle="47, 554, 357, 30" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='XPD6hh' tag='INPUT' type='text' placeholder='Search Brand' aaname='' /&gt;" Guid="1664380a-f20e-4f2e-b10c-5712a1c1394f" InformativeScreenshot="520fdec74354e70b39c9e9e41446633f.png" Reference="QiWUsQYde0eMilD8eAKhiw/l1hgtt0CHkWEL6aIWWSPSg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shoes- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="flipkart.com/search" CVScreenId="5e857e45-0e5c-4116-bf1c-7cc0af9fa0db" ContentHash="9TwybUjUpUKfPQf3tj5oAg" CvElementArea="44, 862, 26, 25" CvType="CheckBox" DesignTimeRectangle="47, 864, 21, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='XqNaEv' parentid='container' tag='DIV' type='' aaname='' /&gt;" Guid="9de595fb-6ca1-4765-8e36-608efa709652" InformativeScreenshot="1a407c841eb958fd7a25ae1fe4867c50.png" Reference="QiWUsQYde0eMilD8eAKhiw/sWhrMRv7BUSCkzE42r8ZdA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="5e857e45-0e5c-4116-bf1c-7cc0af9fa0db" CvElementArea="40, 807, 28, 28" CvType="Icon" DesignTimeRectangle="47, 813, 14, 14" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='JVQyl9' type='' tag='path' aaname='' /&gt;" Guid="32fb7183-47ad-493e-b798-5622efeae09f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF6SURBVDhPrZO9i8JAEMX971XwszBYxKCoAe0igkJAksIiIChiI1aKxDJYiN/OMQP7cBNzdxz3YAnMe/NbdrKboX9SJl74q1JBl8uFttstBUFAi8WCDocDPR6PeAxKgO73O7muS9lsNrHK5TKtVqt4i0gDHY9HqtfraDQMgzqdjqxisYj6cDh8bxMB9Hq9yDRNCXJTfGc+1mQyAWw6nWo+QMvlUgL5fJ7CMNRC7/J9X3KFQkHmqARQt9uVwHg8hvlJz+eTqtWqZHlzJYDUDDabDcw0OY4j2dFohBpAuVxOzN1uBzNNnudJtt/vowZQpVIRMz7kTxoMBpLlrxJAvV5PTJ7VdzqdTjJozs5mM9QBWq/X+LXz+RyBd/Gg+TicKZVKdD6f4WkXUg1R/T2+oCy+Y/xcLMuC32g06Ha7oVcD8fNQ1+A3q91uA/bxrfGtrdVqiUbbtmUEzWZTg3FPAqTEx9nv93IkXlEUwbterxqMN0gF/SSGtVotwL4ANtKIAj7FY+AAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                    <ui:IfElseIfBlock BlockType="ElseIf" Condition="[a=&quot;Myntra&quot;]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_4">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,2968" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="color" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Myntra Online Fashion S…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="f5fe9959-662c-499d-acfa-c7be3546eb74" ContentHash="YOldEjIT40apw3MyyV8hOQ" CvTextArea="156, 497, 828, 33" CvType="AnyWordGroup" DesignTimeRectangle="158, 495, 826, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='SPAN' type='' class='' /&gt;" Guid="51fff832-dd82-4c33-a189-01ff675af467" InformativeScreenshot="4082cc39e55b06a453fa132ba728238c.png" Reference="QiWUsQYde0eMilD8eAKhiw/QxmwbmEvT0CxX55m-r-NBg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='myntra - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="f5fe9959-662c-499d-acfa-c7be3546eb74" CvTextArea="215, 431, 66, 24" CvTextArgument="Myntra" CvType="Text" DesignTimeRectangle="217, 430, 64, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='OSrXXb' parentid='tads' tag='SPAN' type='' aaname='Myntra' check:innerText='Myntra' /&gt;" Guid="05f057ce-8222-4eb3-bcba-675eefaa7c4f" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Enter what u want to search :" Title="User's Choice">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[search_choice]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[search_choice]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com" CVScreenId="61cf4fc8-b20a-45ce-9582-ac90512512e3" ContentHash="kKdo5ZimdkSKaI_mNiEYIw" CvElementArea="1068, 164, 553, 62" CvType="InputBox" DesignTimeRectangle="1133, 168, 487, 59" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='desktop-searchBar' placeholder='Search for products, brands and more' aaname='' /&gt;" Guid="0e7e66f2-d9a3-400c-b437-24bb71e3fbe6" InformativeScreenshot="0fa272e7c3c6074359e070e1253e8245.png" Reference="QiWUsQYde0eMilD8eAKhiw/kZIJUrBJ-UmXd9Pnm4nMXA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping for Women, Men, Kids Fashion &amp;amp; Lifestyle - Myntra' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com" CVScreenId="d75dbde9-35e0-48b4-ba12-f7d11e75493f" ContentHash="URg6ZeaP8keNXwS-KYrHPg" CvElementArea="1068, 165, 553, 62" CvType="InputBox" DesignTimeRectangle="1091, 186, 23, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='myntraweb-sprite desktop-iconSearch sprites-search' isleaf='1' tag='SPAN' aaname='' /&gt;" Guid="ab18ec29-202d-4bb8-9c0b-05f88226b6a1" InformativeScreenshot="06ba698bfe804ec98c6d2cba76e2fcc9.png" Reference="QiWUsQYde0eMilD8eAKhiw/Eqm5QmuVO02MmpF0xCYoQA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping for Women, Men, Kids Fashion &amp;amp; Lifestyle - Myntra' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Brand'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobile" CVScreenId="2b28834e-2f9d-4a95-bc45-2320c9d18ca7" ContentHash="LY1-NIxpDkefCiQArfP6rg" CvElementArea="323, 647, 42, 39" CvType="Icon" DesignTimeRectangle="334, 657, 22, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' parentid='mountRoot' tag='SPAN' class='myntraweb-sprite filter-search-iconSearch sprites-search' aaname='' /&gt;" Guid="042114e6-364b-46b3-b220-9717e3ac985c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI5SURBVEhLvZXfT9pQFMf9mzUxJiydPOwHSEdbzJKNMZxB9jDIwn5oQRe1yFAiIysTmcKcwNzMVCg/9nqWe12v3J62Y4v48Hngnu85Hy693E4MBr/gJpiwLoyLkUSHta+wUyhBJpODdDoH+e0StFrfUc4NV5GuVyEgRmBy0mdLdCEB9fox6rPDVmQYXVDVTW6o55YEXu88ZWZG5Grr63k0w4qtKJVaY0OE2wpk1rIok1nVQBAUltvY3EYZV9FWbpc1S9Iz1DBMvz+AucATmp2eDkC73UEZEyS6d/8xbZydVVDYDiLzeGTaEwrFUN2EE5XLVbabrfdFFHbio16hPeTZWWsmnOjN23eXu/GGoNvtobAThtFjX/DoqInqBE4UiSRomBxpa/Bv+PyPaK+WLaAagROFwy/+WzQnhkcXJZIqDQuCjIJutNsG++lOT3+iOoET7VdrrEHXKyjsRPnTwZ/D8ADVTNDx9vkv/xeKsojCdnQ6XZCVRdoTlKKoboJE+XyR7Sq29BI1DEOuqmRyle2m2TxBGRMkIsSWXjGZKEbRTU0EjcYJBIMLLBd/nnJ8Po4iQjz+Gqam/GwQQVaegjIf5dbI1SPJV2u6vo9muYoItfoxCEKIGzzMnbsPodX6AZ8PvnDre3uHaJariEDusrOzCyiVKqCmNUqj8Q3Ozy9ozcysrGicjOT/STQqvV4fVDXLyQoFndWvTUSw25n5Br5Wkcny8gaVaNrVy3AsIkLxQ5n7PDaRlRsT/QanbIOpYskriAAAAABJRU5ErkJggg==" InformativeScreenshot="2b406e38390eb4edfd384fc23a6af549.png" Reference="QiWUsQYde0eMilD8eAKhiw/9SgHYttjiUaFNI2e42ABtQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2b28834e-2f9d-4a95-bc45-2320c9d18ca7" CvTextArea="47, 417, 85, 21" CvTextArgument="FILTERS" CvType="Text" DesignTimeRectangle="49, 411, 82, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='header-title' parentid='mountRoot' tag='SPAN' type='' aaname='FILTERS' check:innerText='FILTERS' /&gt;" Guid="13ef5a2b-8ee6-445a-be61-570a922e6cd0" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Enter Brand you want to search :" Title="Brand">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[brand]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="Simulate" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[brand]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobiles" CVScreenId="7e2b8354-dc38-4283-8266-04e1ecc82d54" ContentHash="mgf8ZHE86EGu_oNq05TbjQ" CvTextArea="56, 659, 145, 18" CvTextArgument="Search for Brand" CvType="Text" DesignTimeRectangle="35, 646, 332, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='filter-search-inputBox' placeholder='Search for Brand' aaname='' /&gt;" Guid="b8867830-8fda-4cbc-8763-76905cf49be9" InformativeScreenshot="dd4d6f6bae38d8ba592240cb618bed1d.png" Reference="QiWUsQYde0eMilD8eAKhiw/tk9kkPYz80GJ8IawlFI-Hw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobile" CVScreenId="2219cf47-530b-48db-b9a5-332f165932ef" ContentHash="XhSZXfQCoUWyroXCSfcv9g" CvElementArea="45, 709, 31, 30" CvType="CheckBox" DesignTimeRectangle="49, 712, 24, 24" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='common-checkboxIndicator' parentid='mountRoot' tag='DIV' type='' aaname='' /&gt;" Guid="de0a145b-bd61-4f22-b091-85fe78485cad" InformativeScreenshot="9991a9dff8c2ffa979f58cc00f22bf1b.png" Reference="QiWUsQYde0eMilD8eAKhiw/fghFrdBtokyDZv0R6KXyCw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2219cf47-530b-48db-b9a5-332f165932ef" CvElementArea="82, 169, 84, 61" CvType="Icon" DesignTimeRectangle="88, 174, 79, 54" FuzzySelectorArgument="&lt;webctrl href='/' isleaf='1' tag='A' type='' class='myntraweb-sprite desktop-logo sprites-headerLogo ' aaname='' /&gt;" Guid="c0ec9650-1d78-4cf2-a3e3-91ea90088b7b" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,171.33333333333334" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="2" Version="V4" />
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ColorBlack (8178)Blue (…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobile" CVScreenId="800a03a1-42de-4221-8481-e0378596d051" ContentHash="pW-2ohJwVkO6MESrxjmfwA" CvElementArea="326, 594, 37, 36" CvType="Icon" DesignTimeRectangle="334, 601, 22, 22" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl type='' class='myntraweb-sprite filter-search-iconSearch sprites-search' parentid='mountRoot' tag='SPAN' aaname='' /&gt;" Guid="29cc3e75-e141-4cbe-a7f8-972013bd64c2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAI4SURBVEhLzZXfT9pQFMf9mzUxJixVHvYDpKMtZsnGGM4gPghZ2A8t6KIWGY6MkZWJqDAnMDczFcqPvZ7lXtcrt6ft3CLLHj4P3PM958Oll9uxweAH/AvGrAuj4v8SHdY+w9tCCTKZHKTTOcjvlKDV+opybriKdL0KATEC4+M+W6LzCajXj1GfHbYiw+iCqm5xQz23JPB65yhTUyJX29jIoxlWbEWp1DobIkwrkFnPokxmTQNBUFhuc2sHZVxF27l3rFmSnqKGYfr9AcwGHtPs5GQA2u0Oypgg0d17j2jjzIyCwnYQmccj055QKIbqJpyoXK6y3Wy/KaKwEx/0Cu0hz85aM+FEL1+9vtyNNwTdbg+FnTCMHvuCR0dNVCdwokgkQcPkSFuDv8Pnf0h7tWwB1QicKBxe/mvRrBi+viiRVGlYEGQUdKPdNthPd3r6HdUJnGivWmMNul5BYSfKHw9+HYb7qGaCjrfPf/m/UJQFFLaj0+mCrCzQnqAURXUTJMrni2xXscVnqGEYclUlk2tsN83mCcqYIBEhtvicyUQxim5qImg0TiAYnGe5+FLK8fk4igjx+AuYmPCzQQRZeQLKXJRbI1ePJF+t6foemuUqItTqxyAIIW7wMLfvPIBW6xvsH3zi1nd3D9EsVxGB3GVnZxdQKlVATWuURuMLnJ9f0JqZWV3VOBnJ/5HouvR6fVDVLCcrFHRWvzERwW5n5hv4RkUmKyubVKJpVy/DkYgIxfdl7vPIRFZ+AjWEg6ma0zVHAAAAAElFTkSuQmCC" InformativeScreenshot="a5638221bb456b63ba4a4a1f6143e157.png" Reference="QiWUsQYde0eMilD8eAKhiw/RyNdq7ROrUW6bDY0Fi6Hkw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="11, 138, 1920, 120" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='desktop-header-cnt' tag='HEADER' type='' class='desktop-container' aaname='' check:innerText='MEN&amp;#xA;WOMEN&amp;#xA;KIDS&amp;#xA;HOME &amp;amp; LIVING&amp;#xA;BEAUTY&amp;#xA;STUDIO NEW&amp;#xA;Profile&amp;#xA;Wishlist&amp;#xA;Bag' /&gt;" Guid="4d269933-6fcc-4277-932e-6ffc87d0f5b3" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_7" IsPassword="False" Label="Enter the colour you want to choose :" Title="Colour Choice">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[color]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'A /'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[color]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobile" CVScreenId="f44f3cc7-00f5-4c72-a61d-1aa7093ebe7d" ContentHash="ynZw3RRr2E6kUlklLvbnyg" CvTextArea="56, 413, 140, 19" CvTextArgument="Search for Color" CvType="Text" DesignTimeRectangle="35, 401, 332, 45" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='filter-search-inputBox' tag='INPUT' type='text' placeholder='Search for Color' aaname='' /&gt;" Guid="fb249440-9992-4f8a-94d3-7b9f1b8bea78" InformativeScreenshot="fa8fb998103f5a338b84d7184aba2c8b.png" Reference="QiWUsQYde0eMilD8eAKhiw/h0wMYlQSKUKR0ydfJEgxWg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="f44f3cc7-00f5-4c72-a61d-1aa7093ebe7d" CvTextArea="47, 255, 57, 18" CvTextArgument="PRICE" CvType="Text" DesignTimeRectangle="49, 251, 339, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='verticalFilters-header' parentid='mountRoot' tag='SPAN' type='' aaname='Price' check:innerText='PRICE' /&gt;" Guid="b6b98c10-9843-4fa4-a042-b21b628d037c" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="myntra.com/mobile" CVScreenId="8adc2b8b-ac30-4df6-a4d8-068d1e0de822" ContentHash="-syKAW_3ekSj-7DyTEzPIQ" CvElementArea="45, 663, 31, 30" CvType="CheckBox" DesignTimeRectangle="49, 666, 24, 24" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='common-checkboxIndicator' type='' parentid='mountRoot' tag='DIV' aaname='' /&gt;" Guid="24fb8746-4702-4c8c-976c-77a05456c0c0" InformativeScreenshot="f7cdc5ab2a358954a1e54af2cd3bd13b.png" Reference="QiWUsQYde0eMilD8eAKhiw/uw8CETNESU6qGcl_S2VPzg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile - Buy Mobile online in India' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="8adc2b8b-ac30-4df6-a4d8-068d1e0de822" CvElementArea="327, 604, 34, 33" CvTextArea="54, 612, 142, 19" CvTextArgument="Search for Color" CvType="CloseButton" DesignTimeRectangle="35, 600, 332, 45" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='filter-search-inputBox' tag='INPUT' type='text' placeholder='Search for Color' aaname='' /&gt;" Guid="4da1c3b8-3170-412b-9bd5-ced9f5b60490" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                    <ui:IfElseIfBlock BlockType="ElseIf" Condition="[a=&quot;Meesho&quot;]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_6">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,774.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Meesho Online Shopping…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="b033d86e-e0d3-40d4-85e5-59c9ef64b34a" ContentHash="vih35INH5UmVZwOjUc4aKg" CvTextArea="155, 452, 931, 27" CvTextArgument="Meesho: Online Shopping Site for Fashion, Electronics, Home &amp; More" CvType="Text" DesignTimeRectangle="158, 440, 978, 46" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='Meesho: Online Shopping Site for Fashion, Electronics, Home &amp;amp; More' check:innerText='Meesho: Online Shopping Site for Fashion, Electronics, Home &amp;amp; More' /&gt;" Guid="35cdb4ab-63c1-437e-9307-b97aa94c747c" InformativeScreenshot="697758c2dc349274068ab4c370b9ac1b.png" Reference="QiWUsQYde0eMilD8eAKhiw/eDE9482jIEu6LzAUo-pdQg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='meesho - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="b033d86e-e0d3-40d4-85e5-59c9ef64b34a" CvElementArea="153, 386, 49, 49" CvType="Icon" DesignTimeRectangle="158, 390, 41, 42" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='rso' tag='IMG' type='' class='XNo5Ab' aaname='Meesho: Online Shopping Site for Fashion, Electronics, Home &amp;amp; MoreMeeshohttps://www.meesho.com' /&gt;" Guid="f2aefe66-a57a-4c06-b177-7b806e49941d" ImageBase64="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" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="Enter what u want to search :" Title="User's Choice">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[search_choice]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(4)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,245.33333333333334" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[search_choice + &quot;[k(Enter)]&quot;]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="meesho.com" CVScreenId="39d848b6-ba62-46bb-8eab-6a7046666019" ContentHash="0USkq0k-S0GqOMSZIEA0Rw" CvElementArea="318, 156, 608, 70" CvType="InputBox" DesignTimeRectangle="383, 176, 522, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='sc-eDvSVe gUjMRV sc-cUEOzv hBUFrn search-input-elm sc-cUEOzv hBUFrn search-input-elm' placeholder='Try Saree, Kurti or Search by Product Code' aaname='' /&gt;" Guid="ab29013d-9922-4b00-9df2-4f763a22c49b" InformativeScreenshot="682cdfdc247103dca9d57e626718b49d.png" Reference="QiWUsQYde0eMilD8eAKhiw/bS9PgqQ7o0Wph13B9P2Pvg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping Site for Fashion, Electronics, Home &amp;amp; More | Meesho' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="39d848b6-ba62-46bb-8eab-6a7046666019" CvElementArea="318, 156, 608, 70" CvType="InputBox" DesignTimeRectangle="341, 177, 30, 30" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='svg' type='' class='' aaname='' /&gt;" Guid="df5da400-2559-4f53-a161-6884141b5dfa" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                    <ui:IfElseIfBlock BlockType="ElseIf" Condition="[a=&quot;Snapdeal&quot;]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_8">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,2090.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Shop Online for Men, Wo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="cb524a4c-f4b0-405e-8518-ef2eeb6d605b" ContentHash="l5demKIQ7USICRNlxABTIg" CvTextArea="156, 452, 897, 33" CvTextArgument="Shop Online for Men, Women &amp; Kids Clothing, Shoes ... - Snapdeal" CvType="Text" DesignTimeRectangle="158, 440, 978, 46" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='LC20lb MBeuO DKV0Md' aaname='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes ... - Snapdeal' check:innerText='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes ... - Snapdeal' /&gt;" Guid="a1213c73-bb2b-4c9c-bb4c-d25122a40052" InformativeScreenshot="9fdd66f6eb15141089132c249d939445.png" Reference="QiWUsQYde0eMilD8eAKhiw/6n-ytBuJSEaTef_DTnocYQ" ScopeSelectorArgument="&lt;html app='firefox.exe' title='snapdeal - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="158, 383, 948, 57" FuzzySelectorArgument="&lt;webctrl type='' parentid='rso' tag='DIV' class='q0vns' aaname='' check:innerText='Snapdeal&amp;#xA;https://m.snapdeal.com' /&gt;" Guid="d2307706-b4a4-42c1-9caf-f74e4d2f22c1" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_10" IsPassword="False" Label="Enter what u want to search :" Title="User's Choice">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[search_choice]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'I'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="Simulate" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[search_choice]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="snapdeal.com" CVScreenId="7646ddd0-e4f7-47fe-a85c-cb9812a7ef53" ContentHash="FromZnNrkEegfYAF2aPpnA" CvElementArea="407, 205, 779, 59" CvType="InputBox" DesignTimeRectangle="410, 208, 777, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='inputValEnter' tag='INPUT' type='text' class='col-xs-20 searchformInput keyword' placeholder='Search products &amp;amp; brands' aaname='' /&gt;" Guid="f4241bae-985d-4346-bbb8-846d7b7f3476" InformativeScreenshot="a648070aac0ecf70ee452fa7040fbe94.png" Reference="QiWUsQYde0eMilD8eAKhiw/fBeZlCDAo0uwhP06wEtJnA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="7646ddd0-e4f7-47fe-a85c-cb9812a7ef53" CvElementArea="1186, 205, 168, 61" CvTextArea="1247, 225, 72, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1187, 208, 166, 55" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='sdHeader' tag='BUTTON' type='' class='searchformButton col-xs-4 rippleGrey' aaname='             &amp;#x9;Search             &amp;#x9;             ' check:innerText='Search' /&gt;" Guid="2db27725-1d11-46e6-9db7-1d224d47a83a" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.VerifyOptions>
+                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              </uix:VerifyExecutionTypeIntoOptions>
+                            </uix:NTypeInto.VerifyOptions>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="snapdeal.com" CVScreenId="8d4508cc-5721-4fd5-b9b1-591c5f880881" ContentHash="sMC73vn4eEKnsnM-dDGBjA" CvElementArea="1187, 205, 167, 61" CvTextArea="1247, 225, 72, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1187, 208, 166, 55" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='sdHeader' tag='BUTTON' type='' class='searchformButton col-xs-4 rippleGrey' aaname='             &amp;#x9;Search             &amp;#x9;             ' check:innerText='Search' /&gt;" Guid="2edbcb8c-0634-4bb7-8adc-679f028f9072" InformativeScreenshot="7c2daeb656de25c21bfcb3af61b036d8.png" Reference="QiWUsQYde0eMilD8eAKhiw/Oq0Y2Jp56U-s279sqnJ_7w" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="8d4508cc-5721-4fd5-b9b1-591c5f880881" CvTextArea="142, 210, 158, 46" CvTextArgument="snapdeal" CvType="Text" DesignTimeRectangle="88, 212, 213, 45" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl aaname='Snapdeal' tag='IMG' type='' class='notIeLogoHeader aspectRatioEqual sdHomepage cur-pointer' /&gt;" Guid="18302182-91a7-47ca-ad65-b5da87abd395" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,171.33333333333334" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="4" Version="V4" />
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT(5)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="snapdeal.com/search" CVScreenId="edfa3e76-07a7-49b0-a673-1cf750216cf5" ContentHash="9FivfJWKVE-jszEMg-j4mQ" CvTextArea="114, 345, 147, 19" CvTextArgument="Search by Brand" CvType="Text" DesignTimeRectangle="113, 340, 283, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='sd-input js-searchable-box' parentid='content_wrapper' tag='INPUT' type='text' placeholder='Search by Brand' aaname='' /&gt;" Guid="0419ae22-e4e7-439b-babf-c8f2e0a80e93" InformativeScreenshot="0b3a0e9741b6d6afef26363ad06784b7.png" Reference="QiWUsQYde0eMilD8eAKhiw/NRvq-q48k0yP2DU0-avwnw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="edfa3e76-07a7-49b0-a673-1cf750216cf5" CvTextArea="111, 299, 61, 19" CvTextArgument="Brand" CvType="Text" DesignTimeRectangle="113, 295, 60, 28" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='filter-type-name lfloat' parentid='content_wrapper' tag='DIV' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Brand &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' /&gt;" Guid="f9b51c52-65de-499b-8a08-9f5037f25af3" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT(6)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="snapdeal.com/search" CVScreenId="f5883972-9f21-4288-a21d-761becce9b6f" ContentHash="rWCsT0mCv0yEubufJbdndw" CvTextArea="506, 285, 147, 18" CvTextArgument="Search by Brand" CvType="Text" DesignTimeRectangle="471, 280, 455, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='tab-' tag='INPUT' type='text' class='sd-input js-searchable-box' placeholder='Search by Brand' aaname='' /&gt;" Guid="33ef3dac-ed46-41d6-b158-30261add0887" InformativeScreenshot="6df289751c912b972b5ae3c3efd69dd6.png" Reference="QiWUsQYde0eMilD8eAKhiw/2_FTzOflWkywOje5IKjB7w" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_11" IsPassword="False" Label="Enter Brand you want to search :" Title="Brand">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[brand]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(7)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,245.33333333333334" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="Simulate" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[brand]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="snapdeal.com/search" CVScreenId="a6c5bef0-1e89-44dc-ba39-5023058ebdb4" ContentHash="QAcJtV6wNk2nUu8-Itwjiw" CvElementArea="484, 273, 440, 41" CvType="InputBox" DesignTimeRectangle="471, 280, 455, 36" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='tab-' tag='INPUT' type='text' class='sd-input js-searchable-box' placeholder='Search by Brand' aaname='' /&gt;" Guid="ea50ff4b-fe4e-45ee-a4db-9e70ef142316" InformativeScreenshot="0e4190e096dab3788ab591c7e05e3028.png" Reference="QiWUsQYde0eMilD8eAKhiw/efHKhsyzPUWNLmfy0E0gpg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Snapdeal.com - Online shopping India- Discounts - shop Online Perfumes, Watches, sunglasses etc' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="a6c5bef0-1e89-44dc-ba39-5023058ebdb4" CvElementArea="405, 156, 785, 60" CvType="InputBox" DesignTimeRectangle="407, 157, 781, 59" ElementType="InputBox" Guid="fcae5a04-4506-4a56-aa73-a54adb3f76bb" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                    <ui:IfElseIfBlock BlockType="ElseIf" Condition="[a=&quot;Shopsy&quot;]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_10">
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,946" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Shopsy Summer Sale - Su…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="9b363c8c-e03f-40f6-a8cc-19129369db03" ContentHash="idPHj90rJ0WVjo9xsr-kmA" CvTextArea="155, 497, 657, 33" CvType="AnyWordGroup" DesignTimeRectangle="158, 495, 653, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='SPAN' type='' class='' /&gt;" Guid="9a1599f5-9e19-49ef-9096-c7ab51723ece" InformativeScreenshot="ac1b0f0eb7185aed0827e26918b8553d.png" Reference="QiWUsQYde0eMilD8eAKhiw/3Q4VC71tk0GpWInM0mS-NA" ScopeSelectorArgument="&lt;html app='firefox.exe' title='shopsy - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="9b363c8c-e03f-40f6-a8cc-19129369db03" CvElementArea="153, 429, 49, 49" CvType="Icon" DesignTimeRectangle="165, 441, 27, 27" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='svg' type='' class='' aaname='' /&gt;" Guid="c4d661be-7a61-4c4f-9ddf-fd3c6f225cca" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALiSURBVFhH1ZfrU1JBFMD9Y5q+9JelNU3jh1LIUWcyMRlStHyblYqZA4iZim+iEh8hqaiAgD3HrKYSUUBOc860d+7dvZerjQPTb+YMj7N7fvfu3V2WogsXL4HbPQX5BH3oLcq3mIHeIv7LfPL/yLNZgK1IHBzjc9BlG4aGThu9OsfnYHtnl/Jn4VTydDoD7vkFKLvTDJfLajXDYLoP095FyGRO+BKq6MrxTvWkfBjrHsBO/CNfSiCnfOrlolBYK27UWGF4Yh6uV1roc3G5CV4tBfiSCjTla5sRQZArugdc1O/Hz19wu7FLuoBI/ANfWkJV/vsgId2BXpQYTNDyeIj6MA4SSag0t1EeH9lxKqWoz1CVP3r2XJDwoTekn/f2ocRQR23tL2b4NCHIE4dJKC4XZXzoyZEBl5vaXqsww8mJuAIE+cLKmiBSi0AwxHcV2Nv/LrXHVcMjyPsd49QY1ywbNnkBjNMsI0aVpZ36jk57+ZQob+u1U2ObcwJWN0I0Y5n8X+gZHKG+OI94BHljp40a45pF3q5tSXPA5fZoRjj2ni9FOMZmqa+1a4BPifLOfqd054zlQFB3EtZYuxV1GH32McqzfUCOIB8anVa9Up9/XRDKA+eIGubWXsqrLTdB7l/fpsZXjXchlUorcm9W3gnSXPKDxKE0Yrhj8gjyo+OUNMlmvEt8miS8WEtu//u8rxjrIJ3J8GlRjrDndLOmiTYdOZb2PkEsD1yeOEm/fP1Gmwt+NzgyqajBUJXjcJVW36OODR39iuGP7n6SclqBF1BR30rv8QaSR8eK+gxVObIRikrFapt76NeKgRfT9PCpIOUDn3c4qr4EEU05Iv89L62ywOzrZekxsM1DK3DeeBdX+ZIKcsqRzXCMhk5+N/UtT6Da0iEIWdzCk8yu/hasK0fwDDfp8SkuQi3w+OTx+c/vDCcnm81CMByjLVN+esWtOBLTPrFocSb5eVNYeUH/qxXyX+ofApBCNS2Ov5kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_12" IsPassword="False" Label="Enter Brand you want to search :" Title="Brand">
+                            <ui:InputDialog.Result>
+                              <OutArgument x:TypeArguments="x:String">[brand]</OutArgument>
+                            </ui:InputDialog.Result>
+                          </ui:InputDialog>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'INPUT(8)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="HardwareEvents" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[brand + &quot;[k(Enter)]&quot;]" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="shopsy.in" CVScreenId="2dd75887-1083-4b4e-8a80-36ca69c63c65" ContentHash="z3vnAh_H0Ee8kQJXRHoD-Q" CvElementArea="278, 154, 818, 65" CvType="InputBox" DesignTimeRectangle="351, 159, 726, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='sc-3d850155-3 jSUrzS' placeholder='Search for Products, Brands and More' aaname='Search for Products, Brands and More' /&gt;" Guid="b28fb294-ed9e-4116-8d12-85aa1c9af330" InformativeScreenshot="a16177f170f958f5e85c42190ffc22cb.png" Reference="QiWUsQYde0eMilD8eAKhiw/dDPajg05GEKCjet0eYYuJg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Shop Online for Mens &amp;amp; Womens Fashion, Beauty, Home, &amp;amp; More | Shopsy' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2dd75887-1083-4b4e-8a80-36ca69c63c65" CvElementArea="278, 154, 818, 65" CvType="InputBox" DesignTimeRectangle="305, 171, 34, 36" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="c2a03df8-c326-40ad-b78e-13bf64db6e2d" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,162" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="5" Version="V4" />
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                  </sc:BindingList>
+                </ui:IfElseIfV2.ElseIfs>
+                <ui:IfElseIfV2.Then>
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,966" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Shop online at Amazon'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,191.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="ecab7bc7-7784-4585-9713-7de62bf81730" ContentHash="Wrm3kvmAnku5_eear9TQVA" CvTextArea="156, 497, 386, 33" CvType="AnyWordGroup" DesignTimeRectangle="158, 495, 383, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='SPAN' type='' class='' /&gt;" Guid="9dc47160-8214-4197-9756-4cf425e85654" InformativeScreenshot="d55f98252b653b22c39fe75f1638140c.png" Reference="QiWUsQYde0eMilD8eAKhiw/WGWZkNSJjkS_7k_zfPxVKw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='amazon - Google Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="ecab7bc7-7784-4585-9713-7de62bf81730" CvElementArea="153, 429, 49, 49" CvTextArea="168, 440, 19, 22" CvType="Icon" DesignTimeRectangle="165, 441, 27, 27" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl parentid='tads' tag='IMG' type='' class='XNo5Ab' aaname='Shop online at Amazon IndiaAmazon.inhttps://www.amazon.in › home' /&gt;" Guid="a2944273-8842-4cda-9b39-baffa1ae5eab" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUESURBVFhHxZd9aFVlHMfPdrfduVctQ0GdJptCOP/J7I9MC0oTJmSD1TQSNHTbP6EwCfKvDFn/SFCSupcoghG9uOVyblLaNjXRHJsmEkvXzJcZu2PLud17z3k+8XvOOfee7b4oiviF5z7nPM/v/L6/t+d37jHmFhSy95N9NB9pZ+CfGzxKiH7hET7hNeSiqaWN2/8OTZV9JBAe4RNeQyy5F7FSSs+WZREKhfSQNbmXORwO6zW598ongvAJr5Es1KLEVSQE91IqME1Tz/eSFV5j6mI8uAqDwSBNzc18sGsXFRUVVFZVUVFZSXV1Nc3NzYxPTGi5+41AUnJ52CXu6uxk9Zo1TMvKwjCMmOH3+3mjtJS+vj4t7z6XDEnJ3VD39vZStGiRJvGlpZHu95Pi8+Hz+UjLyCArO5u09HS9/1Z5OXfGxrT3bgQSISG5m+9gKMS2bdtISUkhLz+fDL+f3Lw8Stat451Nm5hXUGB7nplJekYGmVlZtLW3ax1ShMmQkNwNW39/P3PnzZsU4sbGxojcsWPHmD5jBkZKCtk5OXr/wMGDtuHBoEdjLBKSu8coEAjw4e7dlJaWsnbtWtavXx+TzyVLl2rS7NxcPdfW1en1B/ZckKxar1+/ztlz52htbY1ExvX8ocm9jUUKT3D8xAkqqqp4YcUKlhQXUzB/vg65Lr60NF14D03uJRYEhofZvGUL2Y5y7/Clp+uKlznLOYYPRS5wcy4Ktm7dGiVySEpKSqirr+fU6dMsWrxY7+c4YT9YW6t1uG04EeKSywNuqDs7O7VCOdtCnJqayp49eybJF8cpOG34g1S767Xgs337tEI5x3KccvLyGB0d1cbJGBkZobCoaFLByTNu1Nx+EQ9xyb05375jh1YozUXm3Pz8yJ7gaFsb+dOna8PcnFfv3GnLOG++RIhL7nouo6amJuJ5qlPV0kQE1wYGeHHlSt39xDgpPKl8OXrd3d2TdMVDXHIRdhtJS0uLJpcXivbe6WTPLlvGU7Nm6T09HAOkvcq9RMyyTJRyerxrgMeQKHlk0wLLdB5UDA4O8urq1VqheC5nOXPatAipRGLDxo3Mmj07srZgwQJOdv2KskJYSjz3kHsw2XNHQH6VFcY07Yq/evUqZWVlPDFzZoRAjFi+fDmf79+vZQ4fPqybzsqXVtHT06PXJNvKVPbFFA5BrOcjf8KNDntJFDgGTIyP62NXX1dHfUMDrUeP6hYrcFN0vrubWzdv6uvw5QbUz6/AkedRv1XC3Vs2h0TBwWRy2RgfguOvozrehJEresuKjVgE4VAQZZmRKAlM04KBn+BKI+qPj+HQQhi6aG+q6EtpStgt7S3BAHRsQH2Tjzq5GTV4Bit4h3AwRDAMIQVCJWp0ipxhhsJYobswfBHVtRn1y2vwdxO0PicW2c7F9dyFHDE9g+qtge9mouoNVNPTcGY7qu8ruH0ahn63R+A83D4Ff30N596HpoXwpQE/zIFrLXD5AFzaa+u0otERxJILvJUp4eosh2+fhHoD6uyhGgz4wkDJkLVaZ+3HZ+Dse3DHrgf+64fwhE0+BfHJXTj50WG9dRIufITqehvaV6G+nwOHClBNhaj2l+HUu6jLn8LoQJTITaO+jqVP+r9dQwzwhssMwthNGOqBwAUYvgRjTiW7sELR3Hpy7IX+334/XyzadzFAlEZXIrN9rXRTsaMV66UXkS+Wx/qt9ji/Uv8HYIPCVYrcehoAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="382,278" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter what u want to search :" Title="User's Choice">
+                      <ui:InputDialog.Result>
+                        <OutArgument x:TypeArguments="x:String">[search_choice]</OutArgument>
+                      </ui:InputDialog.Result>
+                    </ui:InputDialog>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'All'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="Simulate" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Text="[search_choice]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="amazon.in" CVScreenId="c993948c-26bb-40bb-a23e-94e97217e4ad" ContentHash="bN91aTmTP0ezA0g_KwCd-A" CvElementArea="618, 150, 658, 63" CvType="InputBox" DesignTimeRectangle="634, 154, 639, 57" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' placeholder='Search Amazon.in' aaname='Search Amazon.in' /&gt;" Guid="0d666b56-68c7-472a-941e-5b215c87dd8c" InformativeScreenshot="69f135e081c4341d185881bdc685f353.png" IsResponsive="True" Reference="QiWUsQYde0eMilD8eAKhiw/W6yYXkad7kiYgAYIf1yguw" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="c993948c-26bb-40bb-a23e-94e97217e4ad" CvElementArea="553, 152, 84, 62" CvType="InputBox" DesignTimeRectangle="573, 159, 29, 49" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' type='' class='nav-search-label nav-progressive-content' aaname='All' check:innerText='All' /&gt;" Guid="cc69dd63-c93e-45b1-b597-86f3928384ff" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Go'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a255946d-7939-4eee-b897-b5d53dbc8382" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="amazon.in" CVScreenId="8e2c00b1-d2d5-4427-86e4-f8064c3c12e6" ContentHash="0K4_SXHgjEazyxtk4QBd3A" CvElementArea="1269, 149, 74, 66" CvType="Button" DesignTimeRectangle="1273, 153, 67, 60" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='nav-search-submit-button' tag='INPUT' type='submit' class='nav-input nav-progressive-attribute' aaname='Go' check:text='Go' /&gt;" Guid="4c3d02a2-be31-479e-8baf-74cbbebb8e11" InformativeScreenshot="e69e928e6af9e64576962bc84d6fca99.png" Reference="QiWUsQYde0eMilD8eAKhiw/QJZcen7xckmWb1ne5i6mZg" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ui:IfElseIfV2.Then>
+              </ui:IfElseIfV2>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Firefox" ContentHash="IJCiDKsmIU2tc8Gtk-16mw" IconBase64="AAABAAIAEBAAAAEAIABoBAAAJgAAACAgAAABACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///zD9/f2W/f392P39/fn9/f35/f391/39/ZT+/v4uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Cf39/Zn///////////////////////////////////////////39/ZX///8IAAAAAAAAAAAAAAAA/v7+Cf39/cH/////+v35/7TZp/92ul3/WKs6/1iqOv9yuFn/rNWd//j79v///////f39v////wgAAAAAAAAAAP39/Zn/////7PXp/3G3WP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP+Or1j//vDo///////9/f2VAAAAAP///zD/////+vz5/3G3V/9TqDT/WKo6/6LQkf/U6cz/1urO/6rUm/+Zo0r/8IZB//adZ////v7///////7+/i79/f2Y/////4nWzf9Lqkj/Vqo4/9Xqzv///////////////////////ebY//SHRv/0hUL//NjD///////9/f2U/f392v////8sxPH/Ebzt/43RsP/////////////////////////////////4roL/9IVC//i1jf///////f391/39/fr/////Cr37/wW8+/+16/7/////////////////9IVC//SFQv/0hUL/9IVC//SFQv/3pnX///////39/fn9/f36/////wu++/8FvPv/tuz+//////////////////SFQv/0hUL/9IVC//SFQv/0hUL/96p7///////9/f35/f392/////81yfz/CrL5/2uk9v///////////////////////////////////////////////////////f392P39/Zn/////ks/7/zdS7P84Rur/0NT6///////////////////////9/f////////////////////////39/Zb+/v4y//////n5/v9WYu3/NUPq/ztJ6/+VnPT/z9L6/9HU+v+WnfT/Ul7t/+Hj/P////////////////////8wAAAAAP39/Z3/////6Or9/1hj7v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9sdvD////////////9/f2YAAAAAAAAAAD///8K/f39w//////5+f7/paz2/11p7v88Suv/Okfq/1pm7v+iqfX/+fn+///////9/f3B/v7+CQAAAAAAAAAAAAAAAP///wr9/f2d///////////////////////////////////////////9/f2Z/v7+CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f2Z/f392/39/fr9/f36/f392v39/Zj///8wAAAAAAAAAAAAAAAAAAAAAPAPAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAPAPAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/g3+/v5X/f39mf39/cj9/f3q/f39+f39/fn9/f3q/f39yP39/Zn+/v5W////DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f2c/f399f/////////////////////////////////////////////////////9/f31/f39mv7+/iMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/gn9/f2K/f39+////////////////////////////////////////////////////////////////////////////f39+v39/Yf///8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4k/f390v////////////////////////////////////////////////////////////////////////////////////////////////39/dD///8iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////MP39/er//////////////////////////+r05v+v16H/gsBs/2WxSf9Wqjj/Vqk3/2OwRv99vWX/pdKV/97u2P////////////////////////////39/ej+/v4vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/iT9/f3q/////////////////////+v15/+Pxnv/VKk2/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/36+Z//d7tf///////////////////////39/ej///8iAAAAAAAAAAAAAAAAAAAAAAAAAAD///8K/f390//////////////////////E4bn/XKw+/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1apN/+x0pv///////////////////////39/dD///8IAAAAAAAAAAAAAAAAAAAAAP39/Yv/////////////////////sdij/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9TqDT/YKU1/8qOPv/5wZ////////////////////////39/YcAAAAAAAAAAAAAAAD+/v4l/f39+////////////////8Lgt/9TqDT/U6g0/1OoNP9TqDT/U6g0/1OoNP9utlT/n86N/7faqv+426v/pdKV/3u8ZP9UqDX/U6g0/3egN//jiUH/9IVC//SFQv/82MP//////////////////f39+v7+/iMAAAAAAAAAAP39/Z3////////////////q9Ob/W6w+/1OoNP9TqDT/U6g0/1OoNP9nskz/zOXC/////////////////////////////////+Dv2v+osWP/8YVC//SFQv/0hUL/9IVC//WQVP/++fb//////////////////f39mgAAAAD+/v4O/f399v///////////////4LHj/9TqDT/U6g0/1OoNP9TqDT/dblc//L58P/////////////////////////////////////////////8+v/3p3f/9IVC//SFQv/0hUL/9IVC//rIqf/////////////////9/f31////DP7+/ln////////////////f9v7/Cbz2/zOwhv9TqDT/U6g0/2KwRv/v9+z///////////////////////////////////////////////////////738//1kFT/9IVC//SFQv/0hUL/9plg///////////////////////+/v5W/f39nP///////////////4jf/f8FvPv/Bbz7/yG1s/9QqDz/vN2w//////////////////////////////////////////////////////////////////rHqP/0hUL/9IVC//SFQv/0hUL//vDn//////////////////39/Zn9/f3L////////////////R878/wW8+/8FvPv/Bbz7/y7C5P/7/fr//////////////////////////////////////////////////////////////////ere//SFQv/0hUL/9IVC//SFQv/718H//////////////////f39yP39/ez///////////////8cwvv/Bbz7/wW8+/8FvPv/WNL8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//rIqv/////////////////9/f3q/f39+v///////////////we9+/8FvPv/Bbz7/wW8+/993P3///////////////////////////////////////SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/+cGf//////////////////39/fn9/f36////////////////B737/wW8+/8FvPv/Bbz7/33c/f//////////////////////////////////////9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/6xaX//////////////////f39+f39/e3///////////////8cwvv/Bbz7/wW8+/8FvPv/WdP8///////////////////////////////////////0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//SFQv/0hUL/9IVC//vVv//////////////////9/f3q/f39y////////////////0bN/P8FvPv/Bbz7/wW8+/8hrvn/+/v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////39/cj9/f2c////////////////ht/9/wW8+/8FvPv/FZP1/zRJ6/+zuPf//////////////////////////////////////////////////////////////////////////////////////////////////////////////////f39mf7+/lr////////////////d9v7/B7n7/yB38f81Q+r/NUPq/0hV7P/u8P3////////////////////////////////////////////////////////////////////////////////////////////////////////////+/v5X////D/39/ff///////////////9tkPT/NUPq/zVD6v81Q+r/NUPq/2Fs7//y8v7////////////////////////////////////////////09f7//////////////////////////////////////////////////f399f7+/g0AAAAA/f39n////////////////+Tm/P89Suv/NUPq/zVD6v81Q+r/NUPq/1Bc7f/IzPn/////////////////////////////////x8v5/0xY7P+MlPP////////////////////////////////////////////9/f2cAAAAAAAAAAD+/v4n/f39/P///////////////7W69/81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v9ZZe7/k5v0/6609/+vtff/lJv0/1pm7v81Q+r/NUPq/zVD6v+GjvL//v7//////////////////////////////f39+/7+/iQAAAAAAAAAAAAAAAD9/f2N/////////////////////6Cn9f81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v+BivL////////////////////////////9/f2KAAAAAAAAAAAAAAAAAAAAAP7+/gv9/f3V/////////////////////7W69/8+S+v/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/P0zr/7q/+P///////////////////////f390v7+/gkAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3r/////////////////////+Xn/P94gfH/NkTq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NUPq/zVD6v81Q+r/NkTq/3Z/8f/l5/z///////////////////////39/er+/v4kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/jL9/f3r///////////////////////////k5vz/nqX1/2p08P9IVez/OEbq/zdF6v9GU+z/aHLv/5qh9f/i5Pz////////////////////////////9/f3q////MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7+/ib9/f3V/////////////////////////////////////////////////////////////////////////////////////////////////f390v7+/iQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///wr9/f2N/f39/P///////////////////////////////////////////////////////////////////////////f39+/39/Yv+/v4JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+/v4n/f39n/39/ff//////////////////////////////////////////////////////f399v39/Z3+/v4lAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v7+Dv7+/lr9/f2c/f39y/39/e39/f36/f39+v39/ez9/f3L/f39nP7+/ln+/v4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/AA///AAD//AAAP/gAAB/wAAAP4AAAB8AAAAPAAAADgAAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAcAAAAPAAAAD4AAAB/AAAA/4AAAf/AAAP/8AAP//wAP/" InformativeScreenshot="b277b16d071e327a064efff545f270d7.png" Reference="QiWUsQYde0eMilD8eAKhiw/jYFbLCCwL06KBrFgAqJlfA" Selector="&lt;html app='firefox.exe' title='Google' /&gt;" Url="https://www.google.com/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

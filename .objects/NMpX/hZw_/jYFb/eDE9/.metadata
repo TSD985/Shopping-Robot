@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Meesho Online Shopping…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eDE9482jIEu6LzAUo-pdQg",
+  "Reference": "QiWUsQYde0eMilD8eAKhiw/eDE9482jIEu6LzAUo-pdQg",
+  "ParentRef": "QiWUsQYde0eMilD8eAKhiw/jYFbLCCwL06KBrFgAqJlfA",
+  "Created": "2025-03-24T07:36:29.8040379Z",
+  "Updated": "2025-03-24T07:36:29.8040379Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9TwybUjUpUKfPQf3tj5oAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="flipkart.com/search" CVScreenId="5e857e45-0e5c-4116-bf1c-7cc0af9fa0db" CvElementArea="44, 862, 26, 25" CvType="CheckBox" DesignTimeRectangle="47, 864, 21, 21" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl class='XqNaEv' parentid='container' tag='DIV' type='' aaname='' /&gt;" Guid="9de595fb-6ca1-4765-8e36-608efa709652" ScopeSelectorArgument="&lt;html app='firefox.exe' title='Mobile- Buy Products Online at Best Price in India - All Categories | Flipkart.com' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5e857e45-0e5c-4116-bf1c-7cc0af9fa0db" CvElementArea="40, 807, 28, 28" CvType="Icon" DesignTimeRectangle="47, 813, 14, 14" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='JVQyl9' type='' tag='path' aaname='' /&gt;" Guid="32fb7183-47ad-493e-b798-5622efeae09f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAF6SURBVDhPrZO9i8JAEMX971XwszBYxKCoAe0igkJAksIiIChiI1aKxDJYiN/OMQP7cBNzdxz3YAnMe/NbdrKboX9SJl74q1JBl8uFttstBUFAi8WCDocDPR6PeAxKgO73O7muS9lsNrHK5TKtVqt4i0gDHY9HqtfraDQMgzqdjqxisYj6cDh8bxMB9Hq9yDRNCXJTfGc+1mQyAWw6nWo+QMvlUgL5fJ7CMNRC7/J9X3KFQkHmqARQt9uVwHg8hvlJz+eTqtWqZHlzJYDUDDabDcw0OY4j2dFohBpAuVxOzN1uBzNNnudJtt/vowZQpVIRMz7kTxoMBpLlrxJAvV5PTJ7VdzqdTjJozs5mM9QBWq/X+LXz+RyBd/Gg+TicKZVKdD6f4WkXUg1R/T2+oCy+Y/xcLMuC32g06Ha7oVcD8fNQ1+A3q91uA/bxrfGtrdVqiUbbtmUEzWZTg3FPAqTEx9nv93IkXlEUwbterxqMN0gF/SSGtVotwL4ANtKIAj7FY+AAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a407c841eb958fd7a25ae1fe4867c50.png" xmlns="">0b5Fc3088PUaZ6wBAE1TG9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
